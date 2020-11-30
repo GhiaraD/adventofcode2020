@@ -10,6 +10,8 @@ int main()
     while (low != -1)
     {
         cin >> low;
+        if (low == -1)
+            continue;
         cin.get();
         cin >> high;
         cin.get(passwd, 5);
